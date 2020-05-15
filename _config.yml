@@ -1,0 +1,29 @@
+# Site settings
+title: Carlos Montemuiño
+email: cmontemuino@users.noreply.github.com
+description: >
+  This is my personal site.  I am a Data Enginer at Adevinta,
+  I work on Big Data and ML and have a background in distributed system, and
+  data engineering.
+baseurl: "" # the subpath of your site, e.g. /blog
+url: "https://cmontemuino.github.io" # the base hostname & protocol for your site
+github_username: cmontemuino
+future: false
+
+# Build settings
+markdown: kramdown
+google_analytics: UA-166759586-1
+
+theme: minima
+
+minima:
+  social_links:
+    github: cmontemuino
+    linkedin: cmontemuino
+
+
+# Plugins
+plugins:
+    - jekyll-redirect-from
+    - jekyll-feed
+    - jekyll-seo-tag
